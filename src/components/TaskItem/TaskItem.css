@@ -1,0 +1,62 @@
+.item {
+  color: white;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  gap: 1rem;
+  margin: 0.5rem;
+}
+.item .text {
+  background-color: var(--black);
+  padding: 1rem;
+  flex: 3;
+  border-radius: 6px;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.item .btns {
+  display: flex;
+  gap: 1rem;
+  color: var(--black);
+  flex: 1;
+}
+.item .btns .btn {
+  cursor: pointer;
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 400ms ease;
+}
+
+.item .btns .done:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.item .btns .delete {
+  color: var(--main);
+}
+.item .btns .delete:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* responsive */
+@media (max-width: 428px) {
+  .item {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .item {
+    font-size: 0.6rem;
+  }
+}
