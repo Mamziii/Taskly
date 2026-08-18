@@ -63,3 +63,18 @@
   background-color: var(--black);
   border: 1px solid var(--black);
 }
+
+
+/* responsive */
+@media (max-width: 428px) {
+  .form_container {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .form_container {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+}
