@@ -8,15 +8,15 @@ A simple and modern task management app built with React and TypeScript
 ```
 
 ## 🚀 Live Demo
-```
+
 [Taskly](https://github.com/Mamziii/Taskly.git)
-```
+
 
 
 ## 📸 Screenshot
-```
+
 ![Screenshot](./public/screenshot.jpeg)
-```
+
 
 
 ## Features
