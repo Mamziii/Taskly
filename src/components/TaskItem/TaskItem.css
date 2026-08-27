@@ -49,6 +49,12 @@
 }
 
 /* responsive */
+@media (max-width: 440px) {
+  .item {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 430px) {
   .item {
     width: 90%;

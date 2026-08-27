@@ -67,6 +67,12 @@
 
 
 /* responsive */
+@media (max-width: 440px) {
+  .form_container {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+}
 @media (max-width: 430px) {
   .form_container {
     margin-top: 1rem;
