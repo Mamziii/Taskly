@@ -33,7 +33,7 @@ A simple and modern task management app built with React and TypeScript
 ```
 
 
-## 📝 Task Manager
+## 🛠️ Technologies
 ```
 React, 
 TypeScript, 
