@@ -22,7 +22,7 @@ export const TodoProvider = ({ children }: { children: React.ReactNode }) => {
   //   save changes in localstorage
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
-  }, []);
+  }, [todos]);
 
   //   add todo function
   const addTodo = (title: string) => {
