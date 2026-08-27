@@ -34,7 +34,7 @@ export const TodoProvider = ({ children }: { children: React.ReactNode }) => {
 
     if (isDuplicate) {
       swal({
-        title: "This task is already exist!",
+        title: "This task already exists.",
         icon: "error",
       });
       return false;
@@ -74,7 +74,7 @@ export const TodoProvider = ({ children }: { children: React.ReactNode }) => {
         setTodos(todos.filter((todo) => todo.title !== title));
 
         swal({
-          title: `${title} delete`,
+          title: `${title} deleted successfully!`,
           icon: "success",
         });
       }
@@ -88,7 +88,7 @@ export const TodoProvider = ({ children }: { children: React.ReactNode }) => {
     setTodos([]);
 
     swal({
-      title: "All tasks deleted!",
+      title: "All tasks deleted successfully!",
       icon: "success",
     });
   };

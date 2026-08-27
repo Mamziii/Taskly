@@ -12,7 +12,12 @@ export default function TaskForm() {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    if (inputValue) {
+    if (inputValue.length === 0) {
+      swal({
+        title: "please enter a task",
+        icon: "warning",
+      });
+    } else if (inputValue) {
       addTodo(inputValue);
       setInputValue("");
     }
@@ -32,8 +37,8 @@ export default function TaskForm() {
               onChange={(e) => setInputValue(e.target.value)}
             />
 
-            <div >
-              <button  type="submit" className="add_btn">
+            <div>
+              <button type="submit" className="add_btn">
                 <IoIosAdd />
               </button>
             </div>
