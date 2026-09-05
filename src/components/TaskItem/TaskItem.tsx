@@ -16,7 +16,7 @@ export default function TaskItem({ id, title, isDone }: Todo) {
         <div
           className="text"
           style={{
-            backgroundColor: isDone ? "var(--main)" : "",
+            backgroundColor: isDone ? "var(--grey)" : "",
             opacity: isDone ? "0.7" : "",
             textDecoration: isDone ? "line-through" : ""
           }}
