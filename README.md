@@ -9,7 +9,7 @@ A simple and modern task management app built with React and TypeScript
 
 ## 🚀 Live Demo
 
-[Taskly](https://taskly-nu-two.vercel.app/)
+[Watch Live Demo](https://taskly-nu-two.vercel.app/)
 
 
 
