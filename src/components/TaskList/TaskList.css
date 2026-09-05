@@ -12,6 +12,14 @@
   color: var(--black);
   border-radius: 6px;
 }
+.tasklist_container .empty_list span {
+  padding-bottom: 5px;
+}
+.tasklist_container .empty_list .empty {
+  color: var(--main);
+  font-weight: bold;
+  border-bottom: 2px solid var(--main);
+}
 .tasklist_container .clearall_btn {
   background-color: var(--main);
   padding: 0.5rem 1rem;

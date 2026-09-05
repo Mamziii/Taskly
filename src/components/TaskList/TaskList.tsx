@@ -25,7 +25,7 @@ export default function TaskList() {
         ) : (
           <>
             <div className="empty_list">
-              <span>Your list is empty!</span>
+              <span>Your list is <span className="empty">empty !</span></span>
             </div>
           </>
         )}
