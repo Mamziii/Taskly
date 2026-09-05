@@ -16,6 +16,15 @@
 }
 
 /* responsive */
+@media (max-width: 496px) {
+  .header {
+    font-size: 0.9rem;
+  }
+  .header .header_tasklt {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 440px) {
   .header {
     font-size: 0.9rem;
@@ -26,15 +35,6 @@
 }
 
 @media (max-width: 430px) {
-  .header {
-    font-size: 0.9rem;
-  }
-  .header .header_tasklt {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 428px) {
   .header {
     font-size: 0.9rem;
   }
